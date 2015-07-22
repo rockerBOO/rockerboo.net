@@ -2,7 +2,7 @@
         <div class="mui-panel">
           <div class="mui-row">
             <div class="mui-col-md-8">
-              <h2>Contact Me</h2>
+              <h2 class="breadcrumb">Contact Me</h2>
               <p>&nbsp;</p>
               <!-- <form>
                 <legend>Title</legend>

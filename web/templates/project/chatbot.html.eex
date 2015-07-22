@@ -1,8 +1,19 @@
       <div class="mui-container">
         <div class="mui-panel">
-          <h2><a href="http://github.com/rockerBOO/elirc_twitch">Elirc Chat Bot</a></h2>
+          <h2>
+            <span class="breadcrumb"><a href="/projects">Projects</a> ></span>
+            <strong>Elirc Chat Bot</strong>
+          </h2>
+          <p><a href="http://github.com/rockerBOO/elirc_twitch"></a></p>
           <p>Elirc is a Twitch Chat Bot that strives for complete failure control, and the ability to handle any amount of messages coming in.</p>
 
+          <ul>
+            <li>Open source</li>
+            <li>Fully intergrated the OTP model</li>
+            <li>First project in Elixir</li>
+            <li>Commands, Sounds, API intergration, Extendable</li>
+            <li>I am currently refactor/rewriting it to be faster and truely stable. End goal is to make it easily downloadable for streamers, as well as make it work on the server, in clusters.</li>
+          </ul>
           <div class="profile-image">
             <img src="<%= static_path(@conn, "/images/projects/elirc-flow.png") %>">
           </div>

@@ -1,11 +1,24 @@
     <!-- example content -->
     <div class="mui-container">
       <div class="mui-panel">
-        <h2>Projects</h2>
-        <ul>
-          <li><a href="/discovery">Discovery</a></li>
-          <li><a href="/chatbot">Chat Bot</a></li>
-          <li><a href="/virb">Virb</a></li>
-        </ul>
+        <h2 class="breadcrumb">Projects</h2>
+        <div class="mui-row">
+          <div class="project-block mui-col-md-4">
+            <div class="discovery">
+              <a href="/discovery"><img src="http://discovery.rockerboo.net/images/discovery.svg"></a>
+            </div>
+          </div>
+
+          <div class="project-block mui-col-md-4">
+            <div class="elirc">
+              <a href="/chatbot"><img src="/images/elirc.svg"></a>
+            </div>
+          </div>
+
+          <div class="project-block mui-col-md-4">
+            <a href="/virb">
+              <img src="/images/Virb_logo.svg">
+            </a>
+          </div>
       </div>
     </div>

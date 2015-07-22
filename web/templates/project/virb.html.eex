@@ -1,6 +1,10 @@
       <div class="mui-container">
         <div class="mui-panel">
-          <h2><a href="http://virb.com">Virb</a></h2>
+          <h2>
+            <span class="breadcrumb"><a href="/projects">Projects</a> ></span>
+            <strong>Virb</strong>
+          </h2>
+          <p><a href="http://virb.com">virb.com</a></p>
           <p>Virb emerged as a trending social network, into innovated streams of media, into Web Builder.</p>
           <div class="profile-image-small">
             <img src="<%= static_path(@conn, "/images/projects/virb1.jpg") %>">
