@@ -1,6 +1,6 @@
       <div class="mui-container">
         <div class="mui-panel">
-          <h2>Dis a chat bot</h2>
+          <h2><a href="http://github.com/rockerBOO/elirc_twitch">Elirc Chat Bot</a></h2>
           <p>Elirc is a Twitch Chat Bot that strives for complete failure control, and the ability to handle any amount of messages coming in.</p>
 
           <div class="profile-image">
