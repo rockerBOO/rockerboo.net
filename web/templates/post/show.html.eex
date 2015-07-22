@@ -1,0 +1,27 @@
+<h2>Show post</h2>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @post.title %>
+  </li>
+
+  <li>
+    <strong>Body:</strong>
+    <%= @post.body %>
+  </li>
+
+  <li>
+    <strong>Created at:</strong>
+    <%= @post.created_at %>
+  </li>
+
+  <li>
+    <strong>Status:</strong>
+    <%= @post.status %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: post_path(@conn, :index) %>

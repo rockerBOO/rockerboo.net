@@ -1,0 +1,9 @@
+      <div class="mui-container">
+        <div class="mui-panel">
+          <h2>Discovery</h2>
+          <p>Discovery aims to provide a better platform to explore and discover new streamers on Twitch.</p>
+          <div class="profile-image">
+            <img src="<%= static_path(@conn, "/images/projects/discovery1.jpg") %>">
+          </div>
+        </div>
+      </div>

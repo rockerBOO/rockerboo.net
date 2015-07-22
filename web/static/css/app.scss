@@ -1,0 +1,52 @@
+.appbar h1 {
+  margin-top: .4em;
+  margin-bottom: .4em;
+  line-height: 1;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: .6em;
+}
+
+body {
+  font: Roboto, Helvetica, Calabri, sans;
+  font-size: 2em;
+}
+
+.mui-tabs-justified li {
+  background:rgba(28,145,144,0.0);
+}
+
+.mui-tabs-justified li:hover {
+  background: rgba(28,145,144,0.2);
+  opacity: 0.5;
+  transition: background-color .3s ease-in;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+
+
+}
+
+.profile-image img, .profile-image-small img {
+  width: 100%;
+}
+
+.profile-image-small {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-modal {
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16), 0px 0px 2px 0px rgba(0, 0, 0, 0.12)
+}
