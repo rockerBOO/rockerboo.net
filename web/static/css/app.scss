@@ -1,9 +1,7 @@
 .appbar h1 {
   line-height: 1;
-  color: #fff;
   font-weight: 900;
-  margin: .4em;
-  margin-bottom: 0;
+  margin: 0;
   font-style: italic;
   font-family: "Roboto Mono";
 }
@@ -26,8 +24,7 @@ body {
 }
 
 .mui-tabs-justified li:hover {
-  background: rgba(28, 145, 144, 0.2);
-  opacity: 0.5;
+  background: rgba(62, 55, 99, 0.7);
   transition: background-color .3s ease-in;
 }
 
