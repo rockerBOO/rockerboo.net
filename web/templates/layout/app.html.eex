@@ -33,5 +33,12 @@
       </div>
     </div>
     <%= @inner %>
+    <div class="mui-container">
+      <div class="mui-panel">
+        <a href="https://github.com/rockerBOO">Github</a>
+        <span class="mui-divider-left">&nbsp;<a href="https://twitter.com/rockerBOO">Twitter</a></span>
+        <span class="mui-divider-left">&nbsp;<a href="http://www.twitch.tv/rockerboo">Twitch</a></span>
+      </div>
+    </div>
   </body>
 </html>

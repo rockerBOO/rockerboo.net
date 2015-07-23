@@ -1,6 +1,6 @@
       <div class="mui-container">
         <div class="mui-panel">
-          <h2>Dave Lage</h2>
+          <h2 class="breadcrumb">Dave Lage</h2>
           <p class="highlight">10 years of experience with user-facing products in fast-moving industries with a commitment to high standards.</p>
           <ul class="main-list mui-divider-bottom">
             <li>Full Product Development</li>

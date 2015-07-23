@@ -1,7 +1,6 @@
       <div class="mui-container">
         <div class="mui-panel">
           <h2 class="breadcrumb">Contact Me</h2>
-          <p>&nbsp;</p>
           <!-- <form>
             <legend>Title</legend>
             <div class="mui-form-group">
@@ -19,5 +18,9 @@
             <button type="submit" class="mui-btn mui-btn-default mui-btn-raised">Submit</button>
           </form> -->
           <p class="highlight">Contact me on <a href="https://twitter.com/rockerBOO">Twitter</a> or <span style="cursor: pointer;" onclick="this.innerHTML = 'rockerboo@gmail.com';">email</span>.</p>
+
+          <p class="highlight"><a href="https://github.com/rockerBOO">Github</a>
+          <span class="mui-divider-left">&nbsp;<a href="https://twitter.com/rockerBOO">Twitter</a></span>
+          <span class="mui-divider-left">&nbsp;<a href="http://www.twitch.tv/rockerboo">Twitch</a></span></p>
         </div>
       </div>
