@@ -25,9 +25,9 @@
     <div class="mui-container">
       <div class="mui-panel">
         <ul class="mui-tabs mui-tabs-justified">
-          <li class="mui-active"><a href="/">About Me</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact Me</a></li>
+          <li<%= "/" |> active_top_level(@conn) |> raw %>><a href="/">About Me</a></li>
+          <li<%= ["/projects", "/discovery", "/chatbot", "/virb"] |> active_top_level(@conn) |> raw %>><a href="/projects">Projects</a></li>
+          <li<%= "/contact" |> active_top_level(@conn) |> raw %>><a href="/contact">Contact Me</a></li>
         </ul>
       </div>
     </div>
