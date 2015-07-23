@@ -1,15 +1,11 @@
     <!-- example content -->
       <div class="mui-container">
         <div class="mui-panel">
-          <div class="mui-row">
-            <div class="mui-col-md-8">
               <h2 class="breadcrumb">Space Travel DNA Manipulation</h2>
               <p>
               <img style="float: left; margin-right: 10px; margin-bottom: 10px;" src="<%= static_path(@conn, "/images/face200.jpg") %>">Ancient alien magnetic current stonehenge magnetic current aircraft Mahabharata clearly, legendary times targeted mutation gods clearly foo fighter technology spaceships, otherworldly visitors evidence contend golden disk sanskrit. Choral castle star gates space time, space travel DNA manipulation vortex, von Daniken extraterrestrial legendary times. Sanskrit Annunaki choral castle Mayan Annunaki, I know it sounds crazy... Nazca lines, flying vessels otherworldly visitors golden disk. Ancient religions Giorgio Indian texts elongated skull helicopter heiroglyph space time, Giorgio gods Annunaki megoliths mercury electromagnetic Machu Picchu aircraft, cover up earth mound gods megoliths worm hole extraterrestrial. Portal space brothers cover up,.</p>
               <p>This native perennial plant is up to 5' tall and unbranched, except near the inflorescence. The central stem is round and smooth. Scattered along this stem are 3-7 whorled leaves. These leaves are up to 6" long and 1½" across with serrated margins. They are ovate to narrowly ovate, and are either sessile or have short petioles. At the apex of the plant are several slender spikes of white flowers up to 8" long, resembling a candelabra. The narrow tubular flowers are about ¼" long, from which 2 yellow or brown stamens are exerted. These flowers are crowded together all around each spike, blooming from the bottom up. They have no scent.</p>
               <script src="https://gist.github.com/rockerBOO/3cea097e4646bc3a5d7f.js"></script>
-              </div>
-              <div class="mui-col-md-4"></div>
             </div>
           </div>
         </div>
