@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>rockerBOO / Dave Lage</title>
+    <title>rockerBOO / Web Systems Architect</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
             <path d="M15 18c-6 0-7 1-8 5L5 33" class="r"/>
           </g>
         </svg>
-        <h1 class="logo__title">rockerBOO</h1>
+        <div class="logo__title">rockerBOO</div>
       </div>
     </header>
     <div class="mui-container">

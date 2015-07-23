@@ -12,6 +12,10 @@ h2 {
   margin-bottom: .4em;
 }
 
+h2 strong {
+  font-style: italic;
+}
+
 body {
   font-family: Roboto, Helvetica, Calabri, sans;
   font-size: 2em;
@@ -69,31 +73,24 @@ header {
 
 .project-block img{
   width: 100%;
-
 }
 
-.elirc, .discovery {
-  margin: 0 auto;
-  height: auto;
-  padding-top: 39%;
-  padding-bottom: 39%;
-  text-align: center;
+p.highlight {
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin: .3em;
 }
 
-.discovery {
-  background-color: #673AB7;
+ul.main-list {
+  list-style: square;
+  margin-top: 1em;
+  padding-bottom: .6em;
+  margin-bottom: .6em;
 }
 
-.elirc{
-  background-color: #010101;
+ul.main-list li {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: 300;
 }
-
-.elirc a {
-  width: 100%;
-  height: 100%;
-}
-
-.elirc img {
-  width: 90%;
-}
-

@@ -2,10 +2,15 @@
         <div class="mui-panel">
           <h2>
             <span class="breadcrumb"><a href="/projects">Projects</a> ></span>
-            <strong>Discovery</strong>
+            <em>Discovery</em>
           </h2>
-          <p><a href="http://discovery.rockerboo.net">discover.rockerboo.net</a></p>
-          <p>Discovery aims to provide a better platform to explore and discover new streamers on Twitch.</p>
+          <p class="highlight"><a href="http://discovery.rockerboo.net">discover.rockerboo.net</a></p>
+          <p class="highlight">Discovery aims to provide a better platform to explore and discover new streamers on Twitch.</p>
+          <ul class="main-list">
+            <li>Built on Phoenix Framework</li>
+            <li>Fully-Optimized and Mobile-Ready</li>
+            <li>Full Asynchronous Indexing of Streams</li>
+          </ul>
           <div class="profile-image">
             <img src="<%= static_path(@conn, "/images/projects/discovery1.jpg") %>">
           </div>

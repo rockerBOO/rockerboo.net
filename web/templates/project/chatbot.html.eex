@@ -2,12 +2,12 @@
         <div class="mui-panel">
           <h2>
             <span class="breadcrumb"><a href="/projects">Projects</a> ></span>
-            <strong>Elirc Chat Bot</strong>
+            <em>Elirc Chat Bot</em>
           </h2>
           <p><a href="http://github.com/rockerBOO/elirc_twitch"></a></p>
-          <p>Elirc is a Twitch Chat Bot that strives for complete failure control, and the ability to handle any amount of messages coming in.</p>
+          <p class="highlight">Elirc is a Twitch Chat Bot that strives for complete failure control, and the ability to handle any amount of messages coming in.</p>
 
-          <ul>
+          <ul class="main-list">
             <li>Open source</li>
             <li>Fully intergrated the OTP model</li>
             <li>First project in Elixir</li>

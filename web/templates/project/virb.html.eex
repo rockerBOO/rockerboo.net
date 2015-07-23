@@ -2,10 +2,18 @@
         <div class="mui-panel">
           <h2>
             <span class="breadcrumb"><a href="/projects">Projects</a> ></span>
-            <strong>Virb</strong>
+            <em>Virb</em>
           </h2>
-          <p><a href="http://virb.com">virb.com</a></p>
-          <p>Virb emerged as a trending social network, into innovated streams of media, into Web Builder.</p>
+          <p class="highlight"><a href="http://virb.com">virb.com</a></p>
+          <p class="highlight">Virb emerged as a trending social network, into innovated streams of media, into Web Builder.</p>
+          <ul class="main-list">
+            <li>9 years of development over 3 business pivots</li>
+            <li>Systems Design</li>
+            <li>Framework Architecture and Development</li>
+            <li>Research and Development of new technologies across the full stack</li>
+            <li>Vagrant for local development</li>
+            <li>Jenkins for rapid deployment</li>
+          </ul>
           <div class="profile-image-small">
             <img src="<%= static_path(@conn, "/images/projects/virb1.jpg") %>">
           </div>
