@@ -25,6 +25,10 @@ $mui-tab-border-color-active: #1C9190;
   background:  $mui-panel-bg-color;
 }
 
-.appbar {
-  color: $mui-base-font-color;
+header {
+  background-color: #344ca2;
+}
+
+header h1 {
+  color: #fff;
 }

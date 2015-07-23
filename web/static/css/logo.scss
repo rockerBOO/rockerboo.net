@@ -2,12 +2,12 @@
   margin-top: .3em;
   margin-left: .6em;
 
-  width: 48px;
+  width: 5em;
   vertical-align: baseline;
 
   .r,
   .b {
-    animation: first 2.24s cubic-bezier(.59,.22,.02,.85) forwards;
+    animation: first 1.65s cubic-bezier(.59,.22,.02,.85) forwards;
 
     stroke: rgba(255, 255, 255, 0);
   }
@@ -25,21 +25,22 @@
 }
 
 .logo__title {
+  position: relative;
+  bottom: .3em;
   font-family: 'Roboto Mono', sans-serif;
   font-weight: 600;
   font-style: italic;
   display: inline;
-  animation: second 1.18s cubic-bezier(.59,.22,.02,.85) forwards;
+  animation: second 1.0s cubic-bezier(.59,.22,.02,.85) forwards;
   opacity: 0;
-  animation-delay: 1.3s;
-  // transform: translateX(-8px);
-  font-size: 48px;
+  transform: translateX(-.3em);
+  font-size: 3.75em;
 }
 
 @keyframes first {
   to {
     stroke-dashoffset: 0;
-    stroke: #00d8ff;
+    stroke: #c33093;
   }
 };
 

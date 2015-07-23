@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
   <body>
-    <div class="appbar mui-appbar">
+    <header>
       <div class="mui-container">
         <svg class="brand" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
           <g stroke="#000" stroke-width="4" fill="none" stroke-linecap="square">
@@ -21,8 +21,7 @@
         </svg>
         <h1 class="logo__title">rockerBOO</h1>
       </div>
-    </div>
-
+    </header>
     <div class="mui-container">
       <div class="mui-panel">
         <ul class="mui-tabs mui-tabs-justified">
