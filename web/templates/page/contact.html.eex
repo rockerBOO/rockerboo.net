@@ -18,7 +18,7 @@
             <button type="submit" class="mui-btn mui-btn-default mui-btn-raised">Submit</button>
           </form> -->
           <p class="highlight">Contact me on <a href="https://twitter.com/rockerBOO">Twitter</a> or <span style="cursor: pointer;" onclick="this.innerHTML = 'rockerboo@gmail.com';">email</span>.</p>
-
+          <div class="mui-divider">&nbsp;</div>
           <p class="highlight"><a href="https://github.com/rockerBOO">Github</a>
           <span class="mui-divider-left">&nbsp;<a href="https://twitter.com/rockerBOO">Twitter</a></span>
           <span class="mui-divider-left">&nbsp;<a href="http://www.twitch.tv/rockerboo">Twitch</a></span></p>

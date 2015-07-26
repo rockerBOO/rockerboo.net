@@ -94,3 +94,8 @@ ul.main-list li {
   font-size: 1.1em;
   font-weight: 300;
 }
+
+@media (max-width: 575px) {
+  body { font-size: 1.5em; }
+  p.highlight { font-size: 1.5em; }
+}

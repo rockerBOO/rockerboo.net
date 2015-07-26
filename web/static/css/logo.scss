@@ -7,6 +7,7 @@
 
   .r,
   .b {
+    -webkit-animation: first 1.65s cubic-bezier(.59,.22,.02,.85) forwards;
     animation: first 1.65s cubic-bezier(.59,.22,.02,.85) forwards;
 
     stroke: rgba(255, 255, 255, 0);
@@ -20,6 +21,7 @@
   .r {
     stroke-dasharray: 21;
     stroke-dashoffset: 21;
+    -webkit-animation-delay: .25s;
     animation-delay: .25s;
   }
 }
@@ -31,8 +33,8 @@
   font-weight: 600;
   font-style: italic;
   display: inline;
+  -webkit-animation: second 1.0s cubic-bezier(.59,.22,.02,.85) forwards;
   animation: second 1.0s cubic-bezier(.59,.22,.02,.85) forwards;
-  opacity: 0;
   transform: translateX(-.3em);
   font-size: 3.75em;
 }
@@ -50,3 +52,24 @@
     transform: translateX(0);
   }
 };
+
+@media (max-width: 450px) {
+  .logo__title {
+    font-size: 3.3em;
+  }
+
+  .brand {
+    width: 4em;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo__title {
+    font-size: 2.4em;
+  }
+
+  .brand {
+    width: 3.7em;
+  }
+}
+
