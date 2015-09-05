@@ -18,6 +18,7 @@ defmodule Personal.Router do
     get "/", PageController, :index
     get "/projects", PageController, :projects
     get "/contact", PageController, :contact
+    get "/services", PageController, :services
 
     get "/virb", ProjectController, :virb
     get "/discovery", ProjectController, :discovery

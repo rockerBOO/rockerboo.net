@@ -21,7 +21,7 @@ exports.config = {
     },
     stylesheets: {
       joinTo: {
-       'css/app.css': /^(web\/static\/css)/,
+       'css/app.css': "web/static/scss/app.scss",
        'css/vendor.css': /^(web\/static\/vendor\/css)/
       }
     },
@@ -51,6 +51,11 @@ exports.config = {
     babel: {
       // Do not use ES6 compiler in vendor code
       ignore: [/^(web\/static\/vendor)/]
+    },
+    postcss: {
+      processors: [
+        require('autoprefixer')
+      ]
     }
   }
 };

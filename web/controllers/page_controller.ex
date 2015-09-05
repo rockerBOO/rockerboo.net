@@ -9,6 +9,12 @@ defmodule Personal.PageController do
     render conn, "projects.html"
   end
 
+
+  def services(conn, _params) do
+    render conn, "services.html"
+  end
+
+
   def contact(conn, _params) do
     render conn, "contact.html"
   end

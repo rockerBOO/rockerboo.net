@@ -1,0 +1,23 @@
+      <div class="mui-container">
+        <div class="mui-panel">
+          <h2 class="breadcrumb">Services</h2>
+          <ul>
+            <li>Livestream Development</li>
+            <li>Live Coaching</li>
+            <li>MVP Development</li>
+            <li>Consulting</li>
+          </ul>
+
+          <h3>Livestream Development</h3>
+          <p>Develop your stream community. Custom development for bots, web sites, and social media. Feedback on best practices.</p>
+
+          <h3>Live Coaching</h3>
+          <p>Coaching coding sessions over Skype, Appear.in, Google Hangout, or on Livestream.</p>
+
+          <h3><abbr title="Minimal Viable Product">MVP</abbr> Development</h3>
+          <p>Full product development. From idea to product in a very short amount of time.</p>
+
+          <h3>Consulting</h3>
+          <p>General consulting for server architecture, database design, programming architecture, product development, and community building.</p>
+        </div>
+      </div>

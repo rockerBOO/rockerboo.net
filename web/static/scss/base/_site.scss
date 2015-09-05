@@ -1,9 +1,24 @@
-.appbar h1 {
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html, body {
+  font-family: Roboto, Helvetica, Calabri, sans;
+}
+
+body {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+header {
+  padding: .5em;
+}
+
+h1 {
   line-height: 1;
   font-weight: 900;
   margin: 0;
   font-style: italic;
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", monospace;
 }
 
 h2 {
@@ -16,43 +31,35 @@ h2 strong {
   font-style: italic;
 }
 
-body {
-  font-family: Roboto, Helvetica, Calabri, sans;
-  font-size: 2em;
-  line-height: 1.5em;
+h3 {
+  font-size: 1.2em;
+  line-height: 1.3;
+  border-bottom: 1px solid #074d4c;
 }
 
-header {
-  padding: .5em;
+a:hover {
+  color: #f62f9f;
 }
 
-.mui-tabs li {
-  background: rgba(28, 145, 144, 0.0);
+.main-container {
+  font-family: "Roboto Slab", Helvetica, Calabri, sans;
 }
 
-.mui-tabs>li>a {
-  cursor: pointer;
-}
+.profile-image, .profile-image-small  {
+  width: 100%;
+  margin: 0 auto;
 
-.mui-tabs-justified li:hover {
-  background: rgba(62, 55, 99, 0.7);
-  transition: background-color .3s ease-in;
+  img {
+    width: 100%;
+  }
 }
 
 .profile-image {
-  width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
-}
-
-.profile-image img, .profile-image-small img {
-  width: 100%;
 }
 
 .profile-image-small {
-  width: 100%;
   max-width: 400px;
-  margin: 0 auto;
 }
 
 .contact-modal {
@@ -67,13 +74,6 @@ header {
   font-weight: 200;
 }
 
-.project-block {
-  margin-bottom: .6em;
-}
-
-.project-block img{
-  width: 100%;
-}
 
 p.highlight {
   font-weight: 300;
@@ -87,15 +87,15 @@ ul.main-list {
   margin-top: 1em;
   padding-bottom: .6em;
   margin-bottom: .6em;
-}
 
-ul.main-list li {
-  line-height: 1.5em;
-  font-size: 1.1em;
-  font-weight: 300;
+  li {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
 }
 
 @media (max-width: 575px) {
-  body { font-size: 1.5em; }
-  p.highlight { font-size: 1.5em; }
+  body { font-size: 1.5rem; }
+  p.highlight { font-size: 1.5rem; }
 }
